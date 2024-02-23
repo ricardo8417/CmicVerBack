@@ -4,10 +4,7 @@ const registerCollection = 'registers'
 
 const registerSchema = new mongoose.Schema({
  name_complete: String,
- email:{
-    type:String,
-    unique:true
- },
+ email:String,
  tel_oficina:Number,
  num_cel:Number,
  nom_emp:String,
@@ -16,10 +13,12 @@ const registerSchema = new mongoose.Schema({
  int_afil:String,
  handicap:String,
  talla:String,
+ carrito:String,
  factura:String,
 razon_social:String,
 rfc_fact:String,
 dom_fact:String,
+cod_Fiscal:Number,
 cfdi_fact:String,
 regFiscal_fact:String,
 email_fact:String,
