@@ -25,6 +25,7 @@ const result = await transport.sendMail({
    <p>$4,000 Hasta el 30 de Abril del 2024. </p>
    <p>$5,000 del 1 de Mayo al 30 d Mayo. </p>
    <p>$5,500 del 1 al 5 de Junio.</p>
+   <p>Si requiere factura los costos son mas IVA</p>
 
     <p>Para completar tu registro favor de realizar tu pago a la brevedad a esta cuenta:</p>
  <p>Razón Social: CAMARA MEXICANA DE LA INDUSTRIA DE LA CONSTRUCCION.</p>   
