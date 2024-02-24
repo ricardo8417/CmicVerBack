@@ -35,9 +35,9 @@ const result = await transport.sendMail({
 <p>Clabe: 002849065515033892.</p>
 <p>Referencia: PAGO 2DO. TORNEO DE GOLF. </p>
 <p>Y envía tu comprobante de pago al correo:
-asistente_presidencia@cmicveracruz.org o al WhatsApp copiando el siguiente enlace al navegador:https://wa.link/0tnijz
+asistente_presidencia@cmicveracruz.org o al WhatsApp copiando el siguiente enlace al navegador: https://w.app/cmicveracruz 
 poniendo en  el asunto <strong> Pago inscripción a 2o. Torneo de Golf CMIC Veracruz</strong>. </p>
-<p>Si tienes dudas llámanos a los teléfonos 2299214490-92 ext 101. ó al whatssap: https://wa.link/0tnijz</p>
+<p>Si tienes dudas llámanos a los teléfonos 2299214490-92 ext 101. ó al whatssap: https://w.app/cmicveracruz </p>
 <p>Gracias por tu atención y estamos para apoyarte.</p>
 <p>Atte:</p>
 <p>CMIC Veracruz Puerto.</p>
