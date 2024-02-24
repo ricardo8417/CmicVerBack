@@ -4,7 +4,7 @@ const registerCollection = 'registers'
 
 const registerSchema = new mongoose.Schema({
   name_complete: String,
-  email: { type: String, unique: false },
+  email:  String,
   tel_oficina: Number,
   num_cel: Number,
   nom_emp: String,
