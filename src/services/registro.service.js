@@ -9,7 +9,8 @@ constructor(){
 registerForm= async (data) =>{
 
      try{
-      const newRegister = new registerModel(data)
+     
+      const newRegister = new registerModel({data,create_date: new Date()})
       if(newRegister){
      await newRegister.save()
 const result = await transport.sendMail({

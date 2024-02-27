@@ -22,6 +22,7 @@ const registerSchema = new mongoose.Schema({
   cfdi_fact: String,
   regFiscal_fact: String,
   email_fact: String,
+  create_date:Date
 });
 
 mongoose.set('strictQuery',false)

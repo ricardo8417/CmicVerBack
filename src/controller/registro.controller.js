@@ -23,6 +23,7 @@ export const registerForm = async(req, res) =>{
        cfdi_fact: req.body.cfdi_fact,
        regFiscal_fact: req.body.regFiscal_fact,
        email_fact: req.body.email_fact,
+       
      };
 
      const newRegister = await RegisterService.registerForm(data)
