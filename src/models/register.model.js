@@ -12,6 +12,8 @@ const registerSchema = new mongoose.Schema({
   del_cmic: String,
   int_afil: String,
   handicap: String,
+  acompanante:String,
+  name_acompanante:String,
   talla: String,
   carrito: String,
   factura: String,

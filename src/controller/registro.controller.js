@@ -13,6 +13,8 @@ export const registerForm = async(req, res) =>{
        del_cmic: req.body.del_cmic,
        int_afil: req.body.int_afil,
        handicap: req.body.handicap,
+       acompanante:req.body.acompanante,
+       name_acompanante:req.body.name_acompanante,
        talla: req.body.talla,
        carrito:req.body.carrito,
        factura: req.body.factura,
