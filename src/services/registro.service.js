@@ -27,6 +27,7 @@ const result = await transport.sendMail({
    <p>$5,000 del 1 de Mayo al 30 d Mayo. </p>
    <p>$5,500 del 1 al 5 de Junio.</p>
    <p><strong>Si requiere factura los costos son mas IVA.</strong></p>
+<p><strong>Si usted solicitó la renta de un carrito de golf, recuerde que tiene un costo adicional de $600.00 mas IVA si requiere factura.</strong></p>
 
     <p>Para completar tu registro favor de realizar tu pago a la brevedad a esta cuenta:</p>
  <p>Razón Social: CAMARA MEXICANA DE LA INDUSTRIA DE LA CONSTRUCCION.</p>   
