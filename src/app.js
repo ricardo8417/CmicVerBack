@@ -22,10 +22,7 @@ mongoose
   .connect(process.env.DB_URL, {
     useNewUrlParser: true,
     UseUnifiedTopology: true,
-     useFindAndModify: false,
-  // Configuración de la zona horaria (México)
-  timezone: 'America/Mexico_City',
-    dbName: process.env.MONGO_DBNAME
+        dbName: process.env.MONGO_DBNAME
   })
   .then((r) => {
     app.listen(process.env.PORT, () => console.log("Listening..."));

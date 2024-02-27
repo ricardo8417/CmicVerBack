@@ -10,7 +10,7 @@ registerForm= async (data) =>{
 
      try{
      
-      const newRegister = new registerModel({...data,create_date: new Date()})
+      const newRegister = new registerModel({...data,create_date: new Date(new Date().getTime() - new Date().getTimezoneOffset() * 60000),});
       if(newRegister){
      await newRegister.save()
 const result = await transport.sendMail({
