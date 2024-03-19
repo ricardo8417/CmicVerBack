@@ -49,11 +49,11 @@ const initializePassport = () => {
          
           if (!user) {
             console.error("User doesnt exist");
-            return done(null, false);
+            return done(null, false, { message: 'Usuario no encontrado' });
           }
           if (!isValidPassword(user, password)) {
             console.error("Password not valid");
-            return done(null, false);
+            return done(null, false, { message: "Contraseña incorrecta" });
           }
           return done(null, user);
         } catch (e) {

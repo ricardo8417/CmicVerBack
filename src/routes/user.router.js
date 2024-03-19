@@ -4,7 +4,9 @@ import { Login, register, logout } from "../controller/user.controller.js";
 
 const router = Router();
 
-router.post("/login", passport.authenticate("login","/login"), Login);
+router.post(
+  "/login",
+  passport.authenticate("login", "/login"),Login);
 
 
 router.post("/register",passport.authenticate("register"),register);

@@ -29,9 +29,9 @@ app.use(
       },
       ttl: 1000000000000000,
     }),
-    secret: "CoderSecret",
-    resave: true,
-    saveUninitialized: true,
+    secret: "secret",
+    resave: false,
+    saveUninitialized: false,
   })
 );
 

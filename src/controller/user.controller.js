@@ -4,7 +4,7 @@
 
   req.session.user = req.user;
 
-  res.send("Usuario Logueado Correctamente")
+  res.status(200).send({ message: "Inicio de sesión exitoso" });
   
 };
 
