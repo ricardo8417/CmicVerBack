@@ -43,6 +43,8 @@ poniendo en  el asunto <strong> Pago inscripción a 2o. Torneo de Golf CMIC Vera
 <p>Gracias por tu atención y estamos para apoyarte.</p>
 <p>Atte:</p>
 <p>CMIC Veracruz Puerto.</p>
+<p> <span style="color yellow; text-decoration:underline;">si su registro es después del 15 de Abril, la talla de su camisa estará sujeta a disponibilidad.</span></p>
+
 <p><strong>Nota: Favor de no responder a este correo.</strong> </p>
         </div>
     `,
